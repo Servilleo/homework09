@@ -1,0 +1,8 @@
+@mixin sansserif-bold {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+}
+@mixin interactive ($transition: 0.3s) {
+    cursor: pointer;
+    transition: $transition;
+}

@@ -1,0 +1,14 @@
+body {
+    @include sansserif-bold;
+    text-align: center;
+    color: $color-gray;
+    .fridge {
+        flex-flow: wrap;
+        display: inline-flex;
+        padding: 10px;
+        max-width: 780px;
+    }
+    .end {
+        margin-top: 10px;
+    }
+}

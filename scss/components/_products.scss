@@ -1,0 +1,24 @@
+.products {
+    margin: 10px 10px;
+    background: transparent;
+    width: 155px;
+    height: 200px;
+    border: 3px solid $color-gray;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @include interactive();
+
+    &:hover {
+        border: 3px solid $color-lime;
+        @include interactive();
+    }
+    &_icon {
+        width: 100px;
+    }
+    &_title {
+        color: $color-gray;
+    }
+}
